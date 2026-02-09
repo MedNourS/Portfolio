@@ -1,68 +1,63 @@
+@import "tailwindcss";
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* TODO: Put color scheme here */
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /** Base colors */
+  --clr-dark-a0: #000000;
+  --clr-light-a0: #ffffff;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  /** Theme primary colors */
+  --clr-primary-a0: #f7f54f;
+  --clr-primary-a10: #f9f667;
+  --clr-primary-a20: #fbf77c;
+  --clr-primary-a30: #fdf890;
+  --clr-primary-a40: #fef9a3;
+  --clr-primary-a50: #fffab6;
+  --clr-primary-a60: #fffbc8;
+  --clr-primary-a70: #fffddb;
+  --clr-primary-a80: #fffeed;
+  --clr-primary-a90: #ffffff;
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+  /** Theme surface colors */
+  --clr-surface-a0: #121212;
+  --clr-surface-a10: #282828;
+  --clr-surface-a20: #3f3f3f;
+  --clr-surface-a30: #575757;
+  --clr-surface-a40: #717171;
+  --clr-surface-a50: #8b8b8b;
+  --clr-surface-a60: #a7a7a7;
+  --clr-surface-a70: #c4c4c4;
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+  /** Theme tonal surface colors */
+  --clr-surface-tonal-a0: #26251a;
+  --clr-surface-tonal-a10: #3b392f;
+  --clr-surface-tonal-a20: #504f45;
+  --clr-surface-tonal-a30: #67665d;
+  --clr-surface-tonal-a40: #7e7d76;
+  --clr-surface-tonal-a50: #979690;
+  --clr-surface-tonal-a60: #b0afab;
+  --clr-surface-tonal-a70: #cac9c6;
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+  /** Success colors */
+  --clr-success-a0: #22946e;
+  --clr-success-a10: #47d5a6;
+  --clr-success-a20: #9ae8ce;
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+  /** Warning colors */
+  --clr-warning-a0: #a87a2a;
+  --clr-warning-a10: #d7ac61;
+  --clr-warning-a20: #ecd7b2;
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  /** Danger colors */
+  --clr-danger-a0: #9c2121;
+  --clr-danger-a10: #d94a4a;
+  --clr-danger-a20: #eb9e9e;
+
+  /** Info colors */
+  --clr-info-a0: #21498a;
+  --clr-info-a10: #4077d1;
+  --clr-info-a20: #92b2e5;
+
+  /* Made with https://colorffy.com/dark-theme-generator */
 }
