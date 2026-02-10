@@ -1,63 +1,12 @@
 @import "tailwindcss";
 
-:root {
-  /* TODO: Put color scheme here */
+#root {
+    width: 100vw;
+    height: 100vh;
+}
 
-  /** Base colors */
-  --clr-dark-a0: #000000;
-  --clr-light-a0: #ffffff;
-
-  /** Theme primary colors */
-  --clr-primary-a0: #f7f54f;
-  --clr-primary-a10: #f9f667;
-  --clr-primary-a20: #fbf77c;
-  --clr-primary-a30: #fdf890;
-  --clr-primary-a40: #fef9a3;
-  --clr-primary-a50: #fffab6;
-  --clr-primary-a60: #fffbc8;
-  --clr-primary-a70: #fffddb;
-  --clr-primary-a80: #fffeed;
-  --clr-primary-a90: #ffffff;
-
-  /** Theme surface colors */
-  --clr-surface-a0: #121212;
-  --clr-surface-a10: #282828;
-  --clr-surface-a20: #3f3f3f;
-  --clr-surface-a30: #575757;
-  --clr-surface-a40: #717171;
-  --clr-surface-a50: #8b8b8b;
-  --clr-surface-a60: #a7a7a7;
-  --clr-surface-a70: #c4c4c4;
-
-  /** Theme tonal surface colors */
-  --clr-surface-tonal-a0: #26251a;
-  --clr-surface-tonal-a10: #3b392f;
-  --clr-surface-tonal-a20: #504f45;
-  --clr-surface-tonal-a30: #67665d;
-  --clr-surface-tonal-a40: #7e7d76;
-  --clr-surface-tonal-a50: #979690;
-  --clr-surface-tonal-a60: #b0afab;
-  --clr-surface-tonal-a70: #cac9c6;
-
-  /** Success colors */
-  --clr-success-a0: #22946e;
-  --clr-success-a10: #47d5a6;
-  --clr-success-a20: #9ae8ce;
-
-  /** Warning colors */
-  --clr-warning-a0: #a87a2a;
-  --clr-warning-a10: #d7ac61;
-  --clr-warning-a20: #ecd7b2;
-
-  /** Danger colors */
-  --clr-danger-a0: #9c2121;
-  --clr-danger-a10: #d94a4a;
-  --clr-danger-a20: #eb9e9e;
-
-  /** Info colors */
-  --clr-info-a0: #21498a;
-  --clr-info-a10: #4077d1;
-  --clr-info-a20: #92b2e5;
-
-  /* Made with https://colorffy.com/dark-theme-generator */
+@theme {
+    --color-base: #303446;
+    --color-mantle: #292c3c;
+    --color-crust: #232634;
 }
